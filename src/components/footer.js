@@ -12,7 +12,6 @@ const Footer = () => (
   >
     <div className="container">
       <p>
-        {" "} <span className="icon -love"> <RiHeart2Line /> </span>{" "}
         Усі права захищені відповідно до законодавства України.
       </p>
     </div>
