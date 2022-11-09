@@ -1,7 +1,7 @@
 ---
 template: index-page
 slug: /
-title: Купити брикети, дрова, вугілля
+title: Купити дрова, брикети, вугілля
 tagline: Татарбунари, Кілія, Вилково
 featuredImage: /assets/pexels-pavel-danilyuk-6667386.jpg
 cta:
