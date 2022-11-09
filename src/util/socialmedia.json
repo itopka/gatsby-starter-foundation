@@ -5,12 +5,12 @@
       "url": "https://www.facebook.com/"
     },
     {
-      "icon": "telegram",
-      "url": "https://telegram.org/"
-    },
-    {
       "icon": "youtube",
       "url": "https://www.youtube.com/"
+    },
+    {
+      "icon": "telegram",
+      "url": "https://telegram.org/"
     }
   ]
 }
