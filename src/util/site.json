@@ -4,9 +4,9 @@
     "titleTemplate": "%s",
     "description": "Оптова торгівля кам'яним і бурим вугіллям на внутрішньому українському ринку.",
     "siteUrl": "https://topka.pp.ua/",
-    "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "image": "/assets/favicon.svg",
+    "iconimage": "/assets/favicon.svg",
+    "twitterUsername": ""
   },
   "ga": "UA-XXXXXXXXX-X"
 }
