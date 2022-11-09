@@ -1,12 +1,11 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: Купити дрова, брикети, вугілля
+tagline: Татарбунари, Кілія, Вилково
+featuredImage: /assets/pexels-pavel-danilyuk-6667386.jpg
 cta:
-  ctaText: Know more
+  ctaText: Крамниця
   ctaLink: /about
 ---
-
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+Ми робимо процес опалення будівлі простіше, забезпечуючи постачання твердого палива від виробника, до розподільчого центру та Вашої оселі.
