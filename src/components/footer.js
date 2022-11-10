@@ -12,7 +12,7 @@ const Footer = () => (
   >
     <div className="container">
       <p>
-        Усі права захищені відповідно до законодавства України.
+        © 2022, TOPKA.PP.UA, Всі права захищено
       </p>
     </div>
   </footer>
