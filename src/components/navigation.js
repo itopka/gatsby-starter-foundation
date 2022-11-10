@@ -11,6 +11,10 @@ const MenuItems = [
     title: "Головна",
   },
   {
+    path: "/shop",
+    title: "Крамниця",
+  },
+  {
     path: "/about",
     title: "Про нас",
   },
