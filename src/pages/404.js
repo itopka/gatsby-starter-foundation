@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 
 const NotFound = () => (
   <Layout className="not-found-page">
-    <Seo title="Page not found" />
+    <Seo title="Сторінку не знайдено" />
     <div
       className="wrapper"
       style={{
@@ -21,18 +21,17 @@ const NotFound = () => (
             color: "var(--primary-color)",
           }}
         />
-        <h1>Oops we did not expect that to happen</h1>
+        <h1>Ой, ми не очікували, що це станеться</h1>
         <p>
-          Have you wondered into the unknow. Let us help you, Please take a look
-          at below options
+          Ви заблукали у невідомість. Дозвольте нам допомогти Вам. Перегляньте наведені нижче варіанти
         </p>
       </header>
       <Link to="/" className="button">
         <RiArrowLeftSLine className="icon -left" />
-        Back to Homepage
+        Назад на головну сторінку
       </Link>
       <Link to="/contact" className="button -outline">
-        Report this <RiBugLine className="icon -right" />
+        Відправити Повідомлення <RiBugLine className="icon -right" />
       </Link>
     </div>
   </Layout>
