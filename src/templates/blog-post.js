@@ -38,7 +38,7 @@ const Pagination = props => (
               <span className="icon -left">
                 <RiArrowLeftLine />
               </span>{" "}
-              Previous
+              Сюди
             </p>
             <span className="page-title">
               {props.previous.frontmatter.title}
@@ -54,7 +54,7 @@ const Pagination = props => (
                 color: "muted",
               }}
             >
-              Next{" "}
+              Туди{" "}
               <span className="icon -right">
                 <RiArrowRightLine />
               </span>
