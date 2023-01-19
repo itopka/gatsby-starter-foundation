@@ -111,12 +111,12 @@ class BlogIndex extends React.Component {
     return (
       <Layout className="blog-page">
         <Seo
-          title={"Blog — Page " + currentPage + " of " + numPages}
+          title={"Блог — Сторінка " + currentPage + " з " + numPages}
           description={
-            "Stackrole base blog page " + currentPage + " of " + numPages
+            "Сторінка блогу " + currentPage + " з " + numPages
           }
         />
-        <h1>Blog</h1>
+        <h1>Блог</h1>
         <div className="grids col-1 sm-2 lg-3">{posts}</div>
         <Pagination {...props} />
       </Layout>
