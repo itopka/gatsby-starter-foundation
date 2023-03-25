@@ -7,7 +7,7 @@ title: Про нас
 
 ![Toys](/assets/vanessa-bucceri-gdirwiyama8-unsplash.jpg "Toys")
 
-<style>
+
 details {
     width: 250px;
     padding: 1rem;
@@ -27,7 +27,7 @@ details p {
     margin-left: 1.75rem;
     opacity: 0.7;
 }
-</style>
+
 
 <details>
    <summary>
