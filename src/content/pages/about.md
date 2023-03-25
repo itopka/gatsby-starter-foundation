@@ -8,60 +8,32 @@ title: Про нас
 ![Toys](/assets/vanessa-bucceri-gdirwiyama8-unsplash.jpg "Toys")
 
 <style>
-.accordion {
-    background-color: #eee;
-    color: #444;
+details {
+    width: 250px;
+    padding: 1rem;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 4px 4px 3px rgba(0,0,0,0.15);
+}
+summary {
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
 }
-
-.active, .accordion:hover {
-    background-color: #ccc; 
+summary h1 {
+    display: inline;
+    margin-left: 1rem;
+    font-size: 1.25rem;
 }
-
-.panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
+details p {
+    margin-left: 1.75rem;
+    opacity: 0.7;
 }
 </style>
-<h2>Accordion</h2>
 
-<button class="accordion">Section 1</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<button class="accordion">Section 2</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<button class="accordion">Section 3</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
-</script>
+<details>
+   <summary>
+      <h1>Todo list:</h1>
+   </summary>
+   <p>Study</p>
+   <p>Grocery Shop</p>
+   <p>Clean The House</p>
+</details>
